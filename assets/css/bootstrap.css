@@ -5357,9 +5357,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-info {
-  color: #0c5460;
-  background-color: #d1ecf1;
-  border-color: #bee5eb;
+     color: #645f88;
+    background-color: #ffffff;
+    border-color: #645f88;
 }
 
 .alert-info hr {
@@ -6041,6 +6041,7 @@ a.close.disabled {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
+
 }
 
 .modal-backdrop {
@@ -6076,7 +6077,7 @@ a.close.disabled {
 
 .modal-header .close {
   padding: 1rem 1rem;
-  margin: -1rem -1rem -1rem auto;
+margin: -1.60rem -1.5rem -1rem auto;
 }
 
 .modal-title {
@@ -6131,6 +6132,7 @@ a.close.disabled {
   }
   .modal-dialog-centered {
     min-height: calc(100% - 3.5rem);
+    z-index: 9999;
   }
   .modal-dialog-centered::before {
     height: calc(100vh - 3.5rem);

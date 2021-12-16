@@ -38,8 +38,31 @@ a:hover {
   color: #645f88;
   text-decoration: underline;
 }
+ .hover{
+  border: 1px solid white;
+ }
 
+ .hover:hover{
+  border: 1px solid #645f88;
+  border-radius: 10px;
+ }
 
+ .border{
+  border: 1px solid white;
+  margin-right: 30px;
+  border-radius: 10px;
+ }
+
+ .border:hover{
+  border: 1px solid #d3ccff;
+
+ }
+ .margin0{
+  margin-left: 11%;
+ }
+.p-20{
+  padding: 0px 20px;
+}
 .text-xs {
   font-size: 12px !important;
 }
@@ -226,6 +249,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .fonblock{
   background-image:url(../img/index/fonblock.png);
+  background-size:100% ;
+}
+.removefonblock{
+  background-image:url(../img/index/removefonblock.png);
   background-size:100% ;
 }
 
@@ -1403,7 +1430,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-section {
   position: relative;
-  padding-top: 80px;
+
   padding-bottom: 80px;
   background-color: #fff;
   overflow: hidden;
@@ -1418,7 +1445,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   margin-top: 16px;
   margin-bottom: 16px;
-  height: 320px;
+  height: 200px;
   background-color: #F6F5FC;
   color: #645F88;
   border-radius: 30px;
